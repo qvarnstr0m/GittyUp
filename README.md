@@ -1,4 +1,4 @@
-## GittyUp! List your latest Github events! 🎠  
+## GittyUp! List your latest Github events!
   
 <img width="200" alt="NotBotScreenshot" src="https://user-images.githubusercontent.com/70780322/219974374-3f80ba88-bc2c-458d-8f89-bfe6e270aeaa.png">
 
@@ -81,6 +81,7 @@ Before submitting a pull request, please make sure to:
   
 + Follow the existing code style and formatting conventions
 + Write clear and concise commit messages
-+ Test your changes thoroughly to ensure that they work as expected
-+ Thank you for considering contributing to GittyUp!
++ Test your changes thoroughly to ensure that they work as expected  
+   
+Thank you for considering contributing to GittyUp!
   
