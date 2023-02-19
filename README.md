@@ -1,4 +1,4 @@
-## GittyUp! List your latest Github events!
+## GittyUp! List your latest Github events
   
 <img width="200" alt="NotBotScreenshot" src="https://user-images.githubusercontent.com/70780322/219974374-3f80ba88-bc2c-458d-8f89-bfe6e270aeaa.png">
 
@@ -75,6 +75,7 @@ If you would like to contribute to GittyUp, you can do so by:
 + Forking this repository
 + Making your changes
 + Submitting a pull request  
+  
 All types of contributions are welcome, including bug fixes, new features, documentation improvements, and more.  
   
 Before submitting a pull request, please make sure to:  
