@@ -4,16 +4,19 @@
 
   
 ### Table of contents  
-+ Introduction  
-+ How it works  
-+ Try it out  
-+ How to use it  
-+ Tech stack  
-+ Contribute   
++ [Introduction](#introduction)  
++ [How it works](#how-it-works)  
++ [Try it out](#try-it-out)  
++ [How to use it](#how-to-use-it)  
++ [Contribute](#contribute)   
   
 ### Introduction  
   GittyUp is a lightweight JavaScript plugin that allows you to display the latest GitHub events for a given user on your website. 
   It uses the GitHub API to retrieve the latest events for a user, and provides a simple way to render these events on your webpage as unordered list items.  
+    
+  If you use this plugin in your project, I kindly request that you give credit to the authors and contributors by mentioning them in your documentation 
+  or attribution page.
+
     
 ### How it works  
   
