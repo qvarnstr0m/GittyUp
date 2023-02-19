@@ -1,0 +1,18 @@
+{
+    "name": "gittyup",
+    "version": "1.0.0",
+    "description": "A JavaScript plugin for displaying a user's latest GitHub events",
+    "main": "./src/gittyup-get.js",
+    "keywords": ["github", "events", "plugin", "javascript"],
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/qvarnstr0m/GittyUp"
+    },
+    "author": "Martin Qvarnström <mqvarnstrom80@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/qvarnstr0m/GittyUp/issues"
+    },
+    "homepage": "https://github.com/qvarnstr0m/GittyUp"
+  }
+  
