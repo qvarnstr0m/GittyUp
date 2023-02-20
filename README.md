@@ -36,7 +36,17 @@ renderLatestEvents function with the ID of the HTML element where you want to di
   
 ### Try it out  
   
-  To try it out just fork this repo, enter a valid username in the gittyup-config.js and run the index.html in a browser.  
+  Due to security restrictions imposed by modern web browsers, it's not possible to run the plugin locally by simply opening the index.html file in your web browser. Instead, you'll need to serve the files from a web server.  
+  
+Here are a few options for serving the files:  
+  
++ Use a local web server: If you don't have access to a web server and don't want to use a cloud-based service, you can run a local web server on your machine. There are a variety of tools available for this, including [http-server](https://www.npmjs.com/package/http-server) and Python's [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html). If you are using Visual Studio Code, the extension [Live Server](https://github.com/ritwickdey/vscode-live-server) may be the easiest option.
+  
++ Host the files on a web server: If you have access to a web server, you can upload the files to the server and access them via a web browser.  
+  
++ Use a cloud-based service: There are a variety of cloud-based services that allow you to host static websites for free or a low cost. Some popular options include [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), and [Firebase Hosting](https://firebase.google.com/products/hosting).  
+   
+Once you have the files hosted on a web server, simply open the page in your web browser to see the plugin in action. Don't forget to modify the gittyup-config.js file with your GitHub username and the number of events you want to display before uploading the files to the server.  
   
 ### How to use it  
   
