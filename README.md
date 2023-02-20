@@ -1,19 +1,22 @@
-## GittyUp! List your latest Github events! 🎠  
+## GittyUp! List your latest Github events
   
 <img width="200" alt="NotBotScreenshot" src="https://user-images.githubusercontent.com/70780322/219974374-3f80ba88-bc2c-458d-8f89-bfe6e270aeaa.png">
 
   
 ### Table of contents  
-+ Introduction  
-+ How it works  
-+ Try it out  
-+ How to use it  
-+ Tech stack  
-+ Contribute   
++ [Introduction](#introduction)  
++ [How it works](#how-it-works)  
++ [Try it out](#try-it-out)  
++ [How to use it](#how-to-use-it)  
++ [Contribute](#contribute)   
   
 ### Introduction  
   GittyUp is a lightweight JavaScript plugin that allows you to display the latest GitHub events for a given user on your website. 
   It uses the GitHub API to retrieve the latest events for a user, and provides a simple way to render these events on your webpage as unordered list items.  
+    
+  If you use this plugin in your project, I kindly request that you give credit to the authors and contributors by mentioning them in your documentation 
+  or attribution page.
+
     
 ### How it works  
   
@@ -33,7 +36,17 @@ renderLatestEvents function with the ID of the HTML element where you want to di
   
 ### Try it out  
   
-  To try it out just fork this repo, enter a valid username in the gittyup-config.js and run the index.html in a browser.  
+  Due to security restrictions imposed by modern web browsers, it's not possible to run the plugin locally by simply opening the index.html file in your web browser. Instead, you'll need to serve the files from a web server.  
+  
+Here are a few options for serving the files:  
+  
++ Use a local web server: If you don't have access to a web server and don't want to use a cloud-based service, you can run a local web server on your machine. There are a variety of tools available for this, including [http-server](https://www.npmjs.com/package/http-server) and Python's [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html). If you are using Visual Studio Code, the extension [Live Server](https://github.com/ritwickdey/vscode-live-server) may be the easiest option.
+  
++ Host the files on a web server: If you have access to a web server, you can upload the files to the server and access them via a web browser.  
+  
++ Use a cloud-based service: There are a variety of cloud-based services that allow you to host static websites for free or a low cost. Some popular options include [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), and [Firebase Hosting](https://firebase.google.com/products/hosting).  
+   
+Once you have the files hosted on a web server, simply open the page in your web browser to see the plugin in action. Don't forget to modify the gittyup-config.js file with your GitHub username and the number of events you want to display before uploading the files to the server.  
   
 ### How to use it  
   
@@ -75,12 +88,14 @@ If you would like to contribute to GittyUp, you can do so by:
 + Forking this repository
 + Making your changes
 + Submitting a pull request  
+  
 All types of contributions are welcome, including bug fixes, new features, documentation improvements, and more.  
   
 Before submitting a pull request, please make sure to:  
   
 + Follow the existing code style and formatting conventions
 + Write clear and concise commit messages
-+ Test your changes thoroughly to ensure that they work as expected
-+ Thank you for considering contributing to GittyUp!
++ Test your changes thoroughly to ensure that they work as expected  
+   
+Thank you for considering contributing to GittyUp!
   
