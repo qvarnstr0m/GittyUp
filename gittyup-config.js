@@ -1,7 +1,7 @@
-// gittyup-config.js, set to your preferences
+// gittyup-config.js, set to your github username and preferences
 
 export const GittyupConfig = {
-    username: '<enter-username>',
+    username: '<enter-your-username>',
     numEvents: 5,
     includeDateTime: false
 };
