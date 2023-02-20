@@ -1,6 +1,6 @@
 ## GittyUp! List your latest Github events
   
-<img width="200" alt="NotBotScreenshot" src="https://user-images.githubusercontent.com/70780322/219974374-3f80ba88-bc2c-458d-8f89-bfe6e270aeaa.png">
+<img width="200" alt="Kramer" src="https://user-images.githubusercontent.com/70780322/219974374-3f80ba88-bc2c-458d-8f89-bfe6e270aeaa.png">
 
   
 ### Table of contents  
@@ -14,10 +14,9 @@
   GittyUp is a lightweight JavaScript plugin that allows you to display the latest GitHub events for a given user on your website. 
   It uses the GitHub API to retrieve the latest events for a user, and provides a simple way to render these events on your webpage as unordered list items.  
     
-  If you use this plugin in your project, I kindly request that you give credit to the authors and contributors by mentioning them in your documentation 
-  or attribution page.
-
-    
+  Screenshot:  
+  <img width="600" alt="Screenshot" src="https://user-images.githubusercontent.com/70780322/220052435-30626c66-0d8c-4069-be3e-d7497a4a2bd3.png">  
+  
 ### How it works  
   
 GittyUp consists of three main files:
@@ -80,6 +79,9 @@ renderLatestEvents('gittyup-events');
 Note that you will need to update the 'gittyup-events' parameter with the ID of the HTML element where you want to display the events.  
     
 5. Save your webpage, and view it in your browser to see the latest GitHub events for the specified user.  
+  
+  If you use this plugin in your project, I kindly request that you give credit to the authors and contributors by mentioning them in your documentation 
+  or attribution page.
   
 ### Contribute   
   
