@@ -1,8 +1,11 @@
 import { getLatestEvents } from './gittyup-get.js';
-import { GittyupConfig } from './gittyup-config.js'
+import { GittyupConfig } from '../gittyup-config.js'
 
 getLatestEvents(GittyupConfig.username, GittyupConfig.numEvents).then(events => {
+  const header = document.getElementById('header');
+  header.innerHTML = `GittyUp Demo for ${GittyupConfig.username}:`;
   const eventsList = document.getElementById('events');
+  
   events.forEach(event => {
     
     let eventType = '';
