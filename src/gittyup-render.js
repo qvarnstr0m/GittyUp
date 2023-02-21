@@ -29,7 +29,10 @@ getLatestEvents(GittyupConfig.username, GittyupConfig.numEvents).then(events => 
         eventDescription = `issue '${event.payload.issue.title}' at repository`;
         break;
       // Todo: MemberEvent
-      // Todo: PublicEvent
+      case 'PublicEvent':
+        eventType = 'Published';
+        eventDescription = `repository`;
+        break;
       case 'PullRequestEvent':
         eventType = event.payload.action === 'closed' && event.payload.pull_request.merged ? 'Merged' : 'Opened';
         eventDescription = `pull request at repository`;
