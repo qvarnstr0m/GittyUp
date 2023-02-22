@@ -18,7 +18,10 @@ getLatestEvents(GittyupConfig.username, GittyupConfig.numEvents).then(events => 
         eventDescription = event.payload.ref === null ? `${event.payload.ref_type}` : `${event.payload.ref_type} '${event.payload.ref}' at repository`;
         break;
       // Todo: DeleteEvent
-      // Todo: ForkEvent
+      case 'ForkEvent':
+        eventType = 'Forked';
+        eventDescription = `repository`;
+        break;
       // Todo: GollumEvent
       case 'IssueCommentEvent':
         eventType = 'Commented on';
