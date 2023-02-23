@@ -12,12 +12,17 @@ getLatestEvents(GittyupConfig.username, GittyupConfig.numEvents).then(events => 
     let eventDescription = '';
     let createdAt = new Date(event.created_at).toLocaleString();
     switch (event.type) {
-      // Todo: CommitCommentEvent
+      case 'CommitCommentEvent':
+        eventType = 'Commented on';
+        eventDescription = `commit at repository`;
+        break;
       case 'CreateEvent':
         eventType = 'Created';
         eventDescription = event.payload.ref === null ? `${event.payload.ref_type}` : `${event.payload.ref_type} '${event.payload.ref}' at repository`;
         break;
-      // Todo: DeleteEvent
+      case 'DeleteEvent':
+        eventType = 'Deleted';
+        eventDescription = event.payload.ref === null ? `${event.payload.ref_type}` : `${event.payload.ref_type} '${event.payload.ref}' at repository`;
       case 'ForkEvent':
         eventType = 'Forked';
         eventDescription = `repository`;
