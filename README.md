@@ -1,6 +1,4 @@
 ## GittyUp! List your latest Github events
-  
-<img width="200" alt="Kramer" src="https://user-images.githubusercontent.com/70780322/219974374-3f80ba88-bc2c-458d-8f89-bfe6e270aeaa.png">
 
   
 ### Table of contents  
