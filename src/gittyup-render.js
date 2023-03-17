@@ -1,5 +1,5 @@
 import { getLatestEvents } from './gittyup-get.js';
-import { GittyupConfig } from '../gittyup-config.js'
+import { GittyupConfig } from '../gittyup-config.js';
 
 const eventsList = document.getElementById('events');
 // creating and appending loader element
