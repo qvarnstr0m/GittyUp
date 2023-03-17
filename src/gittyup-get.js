@@ -1,20 +1,9 @@
 const getLatestEvents = async (userName, numEvents) => {
   let response;
-  let loading = true;
   try {
     response = await fetch(`https://api.github.com/users/${userName}/events`);
-    loading = false;
   } catch (error) {
-    loading = false;
-  }
-
-  //loading
-  if (loading) {
-    const eventsList = document.getElementById('loadingError');
-    const h5 = document.createElement('h5');
-    h5.innerHTML = `loading...`;
-    eventsList.appendChild(h5);
-    return [];
+    //console.log(error);
   }
 
   //check if there is an error
