@@ -7,12 +7,20 @@ const loader = document.createElement('span')
 loader.innerText = "loading...";
 eventsList.appendChild(loader);
 
-getLatestEvents(GittyupConfig.username, GittyupConfig.numEvents).then(events => {
-    // 1. setting loader to display none.
+getLatestEvents(GittyupConfig.username, GittyupConfig.numEvents).then(data => {
+    // setting loader to display none.
     loader.style.display = "none";
-    // 2. then appending the repository events.
 
-    events.forEach(event => {
+    //check for error
+    if (data.error) {
+        const errorElem = document.createElement('span')
+        errorElem.innerText = data.error.message || 'error occured!';
+        eventsList.appendChild(errorElem)
+        return;
+    }
+
+    // then appending the repository events.
+    data?.events.forEach(event => {
         let eventType = '';
         let eventDescription = '';
         let createdAt = new Date(event.created_at).toLocaleString();
